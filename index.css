@@ -1,0 +1,38 @@
+h1{
+	border:2px #0000ff solid;
+	height:auto;
+	width:425px;
+	border-radius:100px;
+	color:#cc99ff;
+}
+img{
+	height:200px;
+	width:200px;
+	border-radius:200px;
+	border:2px black dashed;
+	position: absolute;
+	left:1100px;
+	top:25px;
+}
+html{
+	background: url(http://desktop-background.net/wallpapers/travel-world-san-diego-skyline-wallpaper-41678.jpg) no-repeat center center fixed;
+	
+	background-size:cover;
+
+}
+p{
+	color:#cc98ff;
+}
+div{
+	color:#cc98ff;
+}
+a{
+	text-decoration:none;
+	color:#7f00ff;
+}
+a:hover{
+	color:#ff0000;
+}
+h2{
+	color:white;
+}
