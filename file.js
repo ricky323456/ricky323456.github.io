@@ -8,5 +8,5 @@ if (correctGuess) {
 	document.write("<p>You guessed the correct number!</p>");
 }
 else {
-	document.write("<p>You're wrong man. the correct answer was" + randomNumber + "</p>")
+	document.write("<p>Sorry you're wrong dude, the correct answer was " + randomNumber + "</p>")
 }
