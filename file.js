@@ -1,19 +1,12 @@
-var firstName = prompt("What is your name?");
-var permission = prompt("Hello! " + firstName + " Type in 'a' for fun. Type in 'b' for random number generator.");
-
-if (permission === "a" )
-{
-	alert("Please let Ricky get this domain name, it would be most appreciated c:");
+var correctGuess = false;
+var randomNumber = Math.floor(Math.random() * 6) + 1;
+var guess = prompt("I am thinking of a number betwen 1 and 6. What is it?")
+if (parseInt(guess) === randomNumber) {
+correctGuess = true;
 }
-
-
-
-else
-
-{
-var number = prompt("Give me a number");
-number = parseInt(number);
-var randomNumberA = number * (Math.random() * 8);
-var roundrandom = Math.ceil(randomNumberA);
-alert(roundrandom);
+if (correctGuess) {
+	document.write("<p>You guessed the correct number!</p>");
+}
+else {
+	document.write("<p>You're wrong man. the correct answer was" + randomNumber + "</p>")
 }
