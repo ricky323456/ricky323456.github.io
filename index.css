@@ -36,3 +36,11 @@ a:hover{
 h2{
 	color:white;
 }
+#pie{
+	font-family:Courier;
+	color:#ffffff;
+	border:2px silver solid;
+	height:auto;
+	width:150px;
+	position:absolute;
+}
