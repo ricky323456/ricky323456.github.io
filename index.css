@@ -8,8 +8,8 @@ h1{
 img{
 	height:200px;
 	width:200px;
-	border-radius:200px;
-	border:2px black dashed;
+	border-radius:100px;
+	border:2px black ridge;
 	position: absolute;
 	left:1100px;
 	top:25px;
@@ -35,12 +35,30 @@ a:hover{
 }
 h2{
 	color:white;
+	position:relative;
+	left:600px;
+	bottom:140px;
+	max-height: 500px;
+	max-width: 150px;
+	border:10px #cc00cc;
+	border-top-style:ridge;
+	border-right-style:ridge;
+	border-left-style:groove;
+	border-bottom-style:hidden;
 }
 #pie{
+	position:relative;
+	left: 600px;
+	bottom:160px;
 	font-family:Courier;
-	color:#ffffff;
-	border:2px silver solid;
-	height:auto;
-	width:150px;
-	position:absolute;
+	color:white;
+	max-height:500px;
+	max-width: 150px;
+	border:#cc00cc 10px;
+	border-top-style:hidden;
+	border-right-style:ridge;
+	border-left-style:groove;
+	border-bottom-style:groove;
+	
+
 }
