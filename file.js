@@ -1,15 +1,27 @@
-function getRandomNumber ( upper ){
-	var randomNumber = Math.floor(Math.random() * upper ) + 1;
-	return randomNumber;
+function time(){
+	var pcTime = new Date;
+	var hour = pcTime.getHours();
+	var minutes = pcTime.getMinutes();
+	var seconds = pcTime.getSeconds();
+	
+	if (hour > 12){
+		hour -= 12;
 }
-/*
-console.log(getRandomNumber(6) );
-console.log(getRandomNumber(100));
-console.log(getRandomNumber(1000));
-console.log(getRandomNumber(100000));
-*/
-function getArea(width, length, unit){
-	var area = width * length;
-	return area + "" + unit;
+	else if (hour === 0){
+	hour += 12;
+	}
+		
+
+	if(seconds < 10){
+		seconds = "0" + seconds;
+	}
+	if (minutes < 10){
+		minutes = "0" + minutes;
+	}
+
+
+	var call = document.getElementById("clock");
+	call.innerHTML = hour + ":" + minutes + ":" + seconds;
 }
-console.log(getArea(10,20,"square feet"));
+time();
+setInterval(time, 1000);

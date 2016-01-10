@@ -1,7 +1,6 @@
 h1{
 	border:2px #0000ff solid;
-	height:auto;
-	width:425px;
+	display:inline;
 	border-radius:100px;
 	color:#cc99ff;
 }
@@ -23,7 +22,7 @@ html{
 p{
 	color:#cc98ff;
 }
-div{
+#hi{
 	color:#cc98ff;
 }
 a{
@@ -59,6 +58,7 @@ h2{
 	border-right-style:ridge;
 	border-left-style:groove;
 	border-bottom-style:groove;
-	
-
+}
+#clock{
+	color:green;
 }
