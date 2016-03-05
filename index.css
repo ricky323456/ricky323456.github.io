@@ -1,8 +1,12 @@
+html{
+background: url(http://cdn.superbwallpapers.com/wallpapers/world/san-diego-skyline-26895-1920x1080.jpg) center center fixed;
+background-size:cover;
+}
+
 h1{
-	border:2px #0000ff solid;
-	display:inline;
-	border-radius:100px;
-	color:#cc99ff;
+	position:center;
+	color:#4ddbff;
+	text-decoration: #ffffff underline;
 }
 img{
 	height:200px;
@@ -10,55 +14,34 @@ img{
 	border-radius:100px;
 	border:2px black ridge;
 	position: absolute;
-	left:1100px;
-	top:25px;
-}
-html{
-	background: url(http://desktop-background.net/wallpapers/travel-world-san-diego-skyline-wallpaper-41678.jpg) center center fixed;
-	
-	background-size:cover;
+	left: 1100px;
+	top:20px;
 
 }
+
 p{
-	color:#cc98ff;
+	color:#4ddbff;
 }
 #hi{
-	color:#cc98ff;
+	color:#4ddbff;
 }
 a{
 	text-decoration:none;
-	color:#7f00ff;
+	color:#0000ff;
 }
 a:hover{
-	color:#ff0000;
+	color:white;
 }
-h2{
+
+#clock{ 
+	max-width:60px;
+	border:2px gray groove;
 	color:white;
 	position:relative;
-	left:600px;
-	bottom:140px;
-	max-height: 500px;
-	max-width: 150px;
-	border:10px #cc00cc;
-	border-top-style:ridge;
-	border-right-style:ridge;
-	border-left-style:groove;
-	border-bottom-style:hidden;
+	left:1158px;
+
 }
-#pie{
-	position:relative;
-	left: 600px;
-	bottom:160px;
-	font-family:Courier;
+li{
 	color:white;
-	max-height:500px;
-	max-width: 150px;
-	border:#cc00cc 10px;
-	border-top-style:hidden;
-	border-right-style:ridge;
-	border-left-style:groove;
-	border-bottom-style:groove;
-}
-#clock{
-	color:green;
+
 }

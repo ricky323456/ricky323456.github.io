@@ -1,0 +1,30 @@
+html{
+background:gray;
+
+}
+h2{
+	color:white;
+	position:relative;
+	vertical-align: left;
+	bottom:-20px;
+	max-height: 500px;
+	max-width: 150px;
+	border:10px #cc00cc;
+	border-top-style:ridge;
+	border-right-style:ridge;
+	border-left-style:groove;
+	border-bottom-style:hidden;
+}
+#pie{
+	position:relative;
+	vertical-align: left;
+	font-family:Courier;
+	color:white;
+	max-height:500px;
+	max-width: 150px;
+	border:#cc00cc 10px;
+	border-top-style:hidden;
+	border-right-style:ridge;
+	border-left-style:groove;
+	border-bottom-style:groove;
+}
