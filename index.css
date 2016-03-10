@@ -1,6 +1,7 @@
 html{
 background: url(http://cdn.superbwallpapers.com/wallpapers/world/san-diego-skyline-26895-1920x1080.jpg) center center fixed;
 background-size:cover;
+background-repeat:no-repeat;
 }
 
 h1{
