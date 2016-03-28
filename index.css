@@ -2,19 +2,21 @@ html{
 background: url(http://cdn.superbwallpapers.com/wallpapers/world/san-diego-skyline-26895-1920x1080.jpg) center center fixed;
 background-size:cover;
 background-repeat:no-repeat;
+
 }
 
-h1{
-	position:center;
+
+header h1{
+	text-align: center;
 	color:#4ddbff;
 	text-decoration: #ffffff underline;
 }
-img{
-	max-width:20%;
+header img{
+	max-width:12%;
 	border-radius:100%;
 	border:2px black ridge;
-	position: relative;
-	float:right;
+	display:block;
+	margin:0 auto;
 	opacity:.4;
 
 }
@@ -24,12 +26,7 @@ img:hover{
 	opacity:1;
 }
 
-p{
-	color:#4ddbff;
-}
-#hi{
-	color:#4ddbff;
-}
+
 a{
 	text-decoration:none;
 	color:#0000ff;
@@ -42,16 +39,12 @@ a:hover{
 	max-width:60px;
 	border:2px gray groove;
 	color:black;
-	position:relative;
-	float:right;
-	margin:10px; 
+	display:block;
+	margin:0 auto; 
 
 }
 li{
-	text-decoration:none;
+	list-style:none;
 }
-ul{
-	background-color:black;
-	max-width:100px;
-	opacity:.6;
-}
+nav ul{
+	text-align: right;
