@@ -11,7 +11,7 @@ section{
 ul{
 text-align:center;
 }
-li{
+#nav{
 display:inline;
 padding:10px;
 border:white 5px solid;
@@ -25,6 +25,7 @@ img{
 	margin:auto;
 	color:gray;
 }
+
 #about{
 	background:url("space.jpg");
 	background-size:cover;
@@ -44,3 +45,13 @@ img{
 #first:hover{
 	opacity:.7;
 }
+#portfolio{
+	height:800px;
+	width:100%;
+	background:url("desk.jpeg");
+	background-size:cover;
+}
+#wow{
+	margin:0;
+	padding-top: 475px;
+};
