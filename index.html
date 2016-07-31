@@ -1,95 +1,33 @@
 <!DOCTYPE html>
-
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">	
 		<link type="text/css" rel="stylesheet" href="index.css"/>
 		<link type ="text/css" rel="stylesheet" href ="responsive.css"/>
-
+		<script src="clock.js"></script>
  		<title>Richard Charles Beck</title>
 	</head>
 
 <body>
-	<header>
-		<div id="h1">Richard's Homepage!</div>
 
-			<li><div id="title"></li>
-			<li><div id="title"></li>
-			<li><div id="title"></li>
-	</header>
-
+		<div id="wrap">
 	<section>
-		<div id="parent">
-			<div id="info"><h1>About me!</h1><p>Good
-				<script>
-				function time(){			
-				var d = new Date();
-				var h = d.getHours();
-				var minutes = d.getMinutes();
-				var seconds = d.getSeconds();
-				var TOD;
-				var	moon;
-					if(h<12){
-						TOD="morning!";
-					}
-					else if(h>12 && h<17){
-						TOD="afternoon!";}
-					else {
-							TOD="evening!"
-						}
-						
-
-						
-						if(h>12){
-						moon="PM";
-						h-=12;}
-
-						else{
-							moon="AM";
-						}
-							if(seconds<10){
-							seconds="0" + seconds;
-							}
-							if(minutes<10){
-							minutes ="0" +minutes;
-							}
-							if(h===0){
-							h=12;
-							}
-
-					document.getElementById("clock").innerHTML=h+":"+minutes+":"+seconds +" "+ moon +".";
-					document.getElementById("TOD").innerHTML=TOD;
-				}
-				setInterval(time,1000);
-</script>
-<a id="TOD"></a>
-I'm Richard Beck, and it is currently <a id="clock"></a> I'm a high school student in the STL metro area. Ever since I was old enough to hold a bottle, I've always had this deep connection with computers. Everything about it excites and amazes me. It's a completely different world, and it's because of this that I have such an extreme passion for writing code. Being able to create a webpage is like being an artist but for computers. But instead of beautiful works such as the Mona Lisa, or The Starry Night. We have Facebook, and Microsoft. In a way, I believe both of these companies have both inspired the same ideas and emotions one felt when looking at the works of Leonardo Divinci or Vincent Van Gogh. When I am old enough I plan to apply and attend <a href="http://www.hackreactor.com/program">Hackreactor</a>, a 12 week long web-developer training camp that teaches you everything about front-end web development. With an emphasis on a powerful programming language called, JavaScript. The benefits of going to HackReactor can be seen <a href="http://www.hackreactor.com/student-outcomes">here</a>. After I go here, the goal is to attain a job working in Silicon Valley and also attend the University of California in Berkley. Where I would like to double major in Computer Science and Cyber Security.</p></div>
-	
-<div id="info"><h1>Portfolio!</h1><p>As of right now, my portfolio isn't really that big. Although, I can say that I have completed all of the HTML, CSS, and Javascript courses on <a href="http://www.teamtreehouse.com">Team TreeHouse</a>, <a href="http://www.codeacademy.com">Codeacademy</a> and almost all of the Javascript courses on <a href="http://www.codeschool.com">Codeschool</a>. In addition to this, I am currently reading and trudging through the book, <a href="http://eloquentjavascript.net/">Eloquent Javascript</a> and to fill the rest of the space here is a picture of my cat!
-
-			</p><img id="cat"src="carl.JPG"></img></div>
-
-			<div id="info"><h1>Contact Me!</h1><p>Lastly, if you need help with any sort of computer problem, want me to cut your grass/any kind of yardwork, or are interested in paying me to write some code for your website click one of the following links!</p>
-
+		<h1 align="center">Welcome Richard's Website!
+		</h1>
 				<ul>
-					<li>
-						<a href="https://www.facebook.com/ricky.beck.77"><img src="ecaf.png"></img>
-						</a> 
-					</li>
-					<li>
-						<a href="mailto:ricky.beck13@gmail.com?Subject=Website%20Visitor" target ="_top">
-							<img src="mail.png"></img>
-						</a>
+					<li><a id="aboutm">About</a></li>
+					<li><a id="portfolio">Portfolio</a></li>
+					<li><a id="contact">Contact</a></li>
 				</ul>
-			</div>
-		
-
-		</div id="parent">
+		<p align="center">Welcome to my website, this is a picure of San Francisco.</p>
 	</section>
+	</div>
+		<div id="about">
+		<img src="me.jpg"></img>	
+		<section>
+			<h1 align="center">About me</h1>
+			<p id="first">Hello and good<a id= "TOD"></a>! Across your travels on the internet you've seemed to be fortunate enough to stumble upon my website. I am Richard Beck, and it is currently <a id="at"></a> I'm the person with hair in the picture above. I'm a 16 year old junior in high school. I have an extreme passion for computers and everything that makes them tick. Feel free to enjoy the awesome picture of space!</p>
+		</section>
+	</div>
+
 </body>
-
-
-
-
-<script src ="clock.js"></script>
-</html>
