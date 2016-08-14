@@ -1,0 +1,55 @@
+@media (max-width:900px){
+#nav{padding:0 0 0 0;
+	display:block;
+	text-align: left;
+	max-width:80px;
+	background-color:#33cc33;
+	margin:0 0 0 0 ;
+}
+#wrap{
+	background-color:green;
+	height:300px;
+}
+#oneP{display:none;}
+#first{opacity:1;}
+#first:hover{opacity:1;}
+#about{background-color:yellow;}
+#portfolio{
+	background-color:#000090;
+	height:400px;
+}
+#wow{padding:0 0 0 0;
+	height:200px;
+}
+#contact{
+	background-color:rgb(55,25,95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -12,7 +12,7 @@ else if(h>11&&h<19){
 day=" afternoon"
 }
 else{
-day="evening"
+day=" evening"
 }
 if(h===0){
 	h=12;
@@ -33,3 +33,4 @@ document.getElementById("at").innerHTML= h+":"+m+":"+s;
 }
 ,1000);
 //end of clock script
+

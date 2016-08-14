@@ -1,13 +1,15 @@
 #wrap{
-background:url("city.jpg");
+/*background:url("city.jpg");
 background-size:cover;
-height:800px;
+*/height:800px;
 }
 
 section{
 	overflow: hidden;
 } 
-
+h1{
+	font-family: Courgette;
+}
 ul{
 text-align:center;
 }
@@ -27,9 +29,9 @@ img{
 }
 
 #about{
-	background:url("space.jpg");
-	background-size:cover;
-	height:700px;
+/*background:url("space.jpg");
+background-size:cover;
+*/height:700px;
 }
 
 #first{
@@ -41,17 +43,33 @@ img{
 	background-color:#c9c9c9;
 	opacity:.3;
 	border-radius:5%;
+	font-size:20px;
 }
 #first:hover{
-	opacity:.7;
+	opacity:.8;
 }
 #portfolio{
 	height:800px;
-	width:100%;
+	/*width:100%;
 	background:url("desk.jpeg");
 	background-size:cover;
-}
+*/}
+
 #wow{
-	margin:0;
-	padding-top: 475px;
-};
+	padding-top:600px;
+}
+#contact{
+	/*background:url("contact.jpg");
+	background-size:cover;
+	*/height:800px;
+}
+
+#contact p{
+	display:block;
+	height:auto;
+	max-width:400px;
+	margin:0 auto;
+	font-size:20px;
+}
+a{text-decoration:none;}
+ul{list-style-type: none}
