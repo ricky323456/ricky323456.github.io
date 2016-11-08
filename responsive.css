@@ -1,4 +1,4 @@
-@media (max-width:900px){
+@media only screen and (max-width:900px){
 #nav{padding:0 0 0 0;
 	display:block;
 	text-align: left;
@@ -8,12 +8,16 @@
 }
 #wrap{
 	background-color:green;
-	height:300px;
+	height:300px; 
 }
 #oneP{display:none;}
+
 #first{opacity:1;}
+
 #first:hover{opacity:1;}
+
 #about{background-color:yellow;}
+
 #portfolio{
 	background-color:#000090;
 	height:400px;

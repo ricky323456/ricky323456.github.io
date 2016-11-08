@@ -73,3 +73,8 @@ height:700px;
 }
 a{text-decoration:none;}
 ul{list-style-type: none}
+#quora{height:100px;
+		width:100px;}
+		#aabb{
+			display:inline-block;
+		}
