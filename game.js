@@ -1,4 +1,4 @@
-var h=prompt("Give me a number");
+/*var h=prompt("Give me a number");
 var w=prompt("Give me a number");
 document.getElementById("color").style.height=h+"px";
 document.getElementById("color").style.width=w+"px";
@@ -14,3 +14,4 @@ var col ="rgb("+a+","+b+","+c+")";
 first.style.backgroundColor=col;
 }
 ,250);
+*/
